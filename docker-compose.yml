@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    # Run as your host user so files created in the container (vendor/, logs, migrations) stay yours.
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
