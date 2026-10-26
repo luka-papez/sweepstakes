@@ -91,6 +91,7 @@ GitHub accounts up to a monthly quota, which this interview won't come close to 
 |---|---|
 | Port 8000 is already in use | Docker: change `"8000:8000"` to `"8001:8000"` in `docker-compose.yml`. PHP: run `php artisan serve --port=8001`. Then use port 8001. |
 | `could not find driver` | Your PHP has no SQLite driver. Install your system's `php-sqlite3` package (or equivalent), or use Docker. |
+| Codespaces: VS Code's built-in preview shows a blank page | Open the app in a normal browser tab instead: **Ports** tab → globe icon next to port 8000. |
 | The contest list is empty | Run `composer reset` to recreate the sample data. |
 | Something else | Reply to your interview email with what you tried and the exact error. |
 
