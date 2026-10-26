@@ -72,15 +72,17 @@ composer dev     # start the server on http://localhost:8000
 Only if you can't use Docker or PHP locally. On your copy's GitHub page, click
 **Code → Codespaces → Create codespace on main**. You get VS Code in your browser with PHP already
 installed. The first start takes a couple of minutes while it installs dependencies and seeds the
-database; then the app starts by itself and opens in a preview tab.
+database. If VS Code asks whether you trust the authors of the files, choose **Trust**.
 
-Run commands like `php artisan test` in the VS Code terminal. If you stop the server, start it
-again with `composer dev`. Codespaces are free for personal GitHub accounts up to a monthly quota,
-which this interview won't come close to using.
+The app starts by itself. To open it, go to the **Ports** tab at the bottom of VS Code and click
+the globe icon next to port 8000. If you ever need to restart it, run `composer dev` in the terminal.
+
+Run commands like `php artisan test` in the VS Code terminal. Codespaces are free for personal
+GitHub accounts up to a monthly quota, which this interview won't come close to using.
 
 ### Check that it works
 
-- http://localhost:8000 shows a table of 5 contests.
+- http://localhost:8000 (or port 8000 in Codespaces) shows a table of 5 contests.
 - `php artisan test` ends with every test passing.
 
 ## Getting stuck
