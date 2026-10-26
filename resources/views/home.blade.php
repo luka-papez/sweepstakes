@@ -42,9 +42,9 @@
 
     <h2>API</h2>
 <pre>
-curl {{ url('/api/contests') }}
-curl {{ url('/api/contests/1') }}
-curl -X POST {{ url('/api/contests/1/entries') }} \
+curl {{ config('app.url') }}/api/contests
+curl {{ config('app.url') }}/api/contests/1
+curl -X POST {{ config('app.url') }}/api/contests/1/entries \
      -H 'Accept: application/json' -H 'Content-Type: application/json' \
      -d '{"name": "Jane Listener", "email": "jane@example.com"}'
 </pre>
