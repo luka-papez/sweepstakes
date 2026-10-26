@@ -5,7 +5,8 @@ sharing your screen, so please read it beforehand but **don't start it before th
 
 - Talk us through what you're doing as you go. We care about how you work, not only about finishing.
 - Use your normal editor and any documentation you like (laravel.com/docs, `php artisan help`, etc.).
-  **No AI assistants**, please.
+- AI assistants are allowed. If you use them, we'll expect more: a finished, tested result, and that
+  you can explain every line of it.
 - Later interviews have different tasks, which you'll get during those calls.
 
 ---

@@ -14,12 +14,7 @@
         "vscode": {
             "extensions": [
                 "bmewburn.vscode-intelephense-client"
-            ],
-            "settings": {
-                // The interview is done without AI assistants.
-                "github.copilot.enable": { "*": false },
-                "chat.disableAIFeatures": true
-            }
+            ]
         }
     }
 }

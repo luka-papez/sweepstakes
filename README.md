@@ -24,8 +24,8 @@ A senior engineer should be up and running in 15 minutes or less. If you get stu
 
 - **Share your screen and think aloud.** We care about how you work, not only whether you finish.
 - **Use your normal editor and any documentation you like** (laravel.com/docs, `php artisan help`, Stack Overflow).
-- **No AI assistants**: no Copilot, ChatGPT, Claude, Cursor or similar. Please turn off your editor's AI
-  features before the call.
+- **AI assistants are allowed** (Copilot, ChatGPT, Claude, Cursor and similar). If you use them, we'll
+  expect more: a finished, tested result, and that you can explain every line of it.
 - **Ask if something is unclear.** Asking a good question is part of the job.
 - **Follow the instructions closely.** A small change that does exactly what was asked beats a big one that doesn't.
 
